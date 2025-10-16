@@ -1,14 +1,20 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
     scroll-behavior: smooth;
 }
 
 header {
-    background: #2ecc71;
+    background: #ff4500;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -41,11 +47,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e74c3c;
+    color: #ffd700;
 }
 
 #hero {
-    background: url('OldcraftLogo.png') no-repeat center center/cover;
+    background: url('hero-image.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 150px 20px 100px;
@@ -65,8 +71,8 @@ nav ul li a:hover {
 }
 
 .cta-btn {
-    background: #e74c3c;
-    color: #fff;
+    background: #ffd700;
+    color: #000;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -76,16 +82,16 @@ nav ul li a:hover {
 }
 
 .cta-btn:hover {
-    background: #c0392b;
+    background: #ffb900;
     transform: scale(1.05);
 }
 
 #features {
     padding: 50px 20px;
     text-align: center;
-    background: #fff;
+    background: #1e1e1e;
     margin: 20px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .feature-list {
@@ -96,10 +102,10 @@ nav ul li a:hover {
 }
 
 .feature {
-    background: #f9f9f9;
+    background: #2a2a2a;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     flex: 1 1 300px;
     max-width: 300px;
     transition: transform 0.3s;
@@ -114,7 +120,7 @@ nav ul li a:hover {
 }
 
 #download {
-    background: #2ecc71;
+    background: #ff4500;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -122,8 +128,8 @@ nav ul li a:hover {
 }
 
 .download-btn {
-    background: #e74c3c;
-    color: #fff;
+    background: #ffd700;
+    color: #000;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -133,12 +139,12 @@ nav ul li a:hover {
 }
 
 .download-btn:hover {
-    background: #c0392b;
+    background: #ffb900;
     transform: scale(1.05);
 }
 
 footer {
-    background: #333;
+    background: #121212;
     color: #fff;
     text-align: center;
     padding: 10px 0;
