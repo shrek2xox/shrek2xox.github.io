@@ -51,8 +51,8 @@ nav ul li a:hover {
 }
 
 #hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url('skyblockeverest.jpg') no-repeat center center/cover;
+    color: #000000;
     text-align: center;
     padding: 150px 20px 100px;
     margin-top: 60px; /* Adjust for fixed header */
@@ -62,10 +62,14 @@ nav ul li a:hover {
     font-size: 3em;
     margin-bottom: 20px;
     animation: fadeIn 2s ease-in-out;
+    -webkit-text-stroke: 1px #ffffff; /* Stroke for WebKit browsers */
+    -moz-text-stroke: 1px #ffffff; /* Stroke for Firefox */
 }
 
 #hero p {
-    font-size: 1.2em;
+    color: white;
+    background-color: rgb(4, 0, 48);
+    font-size: 1.5em;
     margin-bottom: 30px;
     animation: fadeIn 2s ease-in-out 0.5s;
 }
